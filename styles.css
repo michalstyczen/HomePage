@@ -300,6 +300,49 @@ section:last-of-type {
 }
 
 /* ==========================================================================
+   Consulting
+   ========================================================================== */
+
+.lede {
+  font-size: 17px;
+  max-width: 62ch;
+  color: var(--text-muted);
+  margin: 0 0 36px;
+}
+
+.consult-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border-soft);
+  border: 1px solid var(--border-soft);
+  margin-bottom: 36px;
+}
+
+.consult-item {
+  background: var(--bg);
+  padding: 22px 24px;
+}
+
+.consult-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.consult-item p {
+  font-size: 14.5px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .consult-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
    Experience timeline
    ========================================================================== */
 
